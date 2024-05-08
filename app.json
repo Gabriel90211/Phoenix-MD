@@ -1,15 +1,15 @@
 {
-  "name": "Phoenix-MD",
+  "name": "Stefan bot",
   "version": "1.0.0",
-  "description": "Phoenix-MD Simple WhatsApp Bot",
+  "description": "Stefan bot Simple WhatsApp Bot",
   "logo": "https://i.imgur.com/T78fhJk.jpeg",
-  "keywords": ["whatsapp", "bot", "md", "multi-device", "Phoenix", "Phoenix-MD", "wabot", "termux-bot", "sc-bot"],
-  "repository": "https://github.com/AbhishekSuresh2/Phoenix-MD",
+  "keywords": ["whatsapp", "bot", "md", "multi-device", "Stefan", "Stefan bot", "wabot", "termux-bot", "sc-bot"],
+  "repository": "https://github.com/Gabriel90211/Phoenix-MD",
   "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Enter Your Session ID",
-      "required": true
+      "required": false
     },
     "HANDLERS": {
       "description": "Enter Prefix For Commands",
@@ -19,7 +19,7 @@
     "SUDO": {
       "description": "Enter Numbers With Country Code Without + Separated With , To Add More Numbers",
       "required": false,
-      "value": "919074692450"
+      "value": "95 171357"
     },
     "SPAM_COUNT": {
       "description": "Enter Number Of Times To Send Spam Message Using .spam Command",
@@ -39,17 +39,17 @@
     "OWNER_NAME": {
       "description": "Enter Your Owner Name",
       "required": false,
-      "value": "Abhishek Suresh"
+      "value": "Stefan"
     },
     "OWNER_NUMBER": {
       "description": "Enter Your Owner Number",
       "required": false,
-      "value": "919074692450"
+      "value": "95 171357"
     },
     "BOT_NAME": {
       "description": "Enter Your Bot Name",
       "required": false,
-      "value": "Phoenix-MD"
+      "value": "Stefan bot"
     },
     "WORK_TYPE": {
       "description": "Enter Your Mode Type public For Public Otherwise Type private",
